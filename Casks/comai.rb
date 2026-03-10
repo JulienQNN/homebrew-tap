@@ -3,7 +3,7 @@ cask "comai" do
   name "comai"
   desc "Use AI to write your git commit messages and more"
   homepage "https://github.com/JulienQNN/comai"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "comai" do
   on_macos do
     on_intel do
       url "https://github.com/JulienQNN/comai/releases/download/v#{version}/comai_#{version}_darwin_amd64.tar.gz"
-      sha256 "ff46121e7c11f40a1741a0e836424aa3c602028d720688c9212104f80fafa885"
+      sha256 "0c8070dc5af96e502d202a35d38a4ce2849260cc789b0214822e99670749fb20"
     end
     on_arm do
       url "https://github.com/JulienQNN/comai/releases/download/v#{version}/comai_#{version}_darwin_arm64.tar.gz"
-      sha256 "f782cf34bbd63e36122814984eb37d1016048883a874ceb6db7f86156175d38b"
+      sha256 "0456f563a8c1b544b0460f4c5d3d66bc645164177f0081320a2c5514bdd0572e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/JulienQNN/comai/releases/download/v#{version}/comai_#{version}_linux_amd64.tar.gz"
-      sha256 "429f2c275f321c524605c4ee2ae43133fd802ee157b493055cedf366390becbb"
+      sha256 "a0baf0fde3a16be04b5c61cab1b2d94fa0a4bbba41b7dd845f8047a3875b7c49"
     end
     on_arm do
       url "https://github.com/JulienQNN/comai/releases/download/v#{version}/comai_#{version}_linux_arm64.tar.gz"
-      sha256 "f0661d96776d512bf1a35674b1812fd96a6299f4042d5412f2a2906e4dbba7f5"
+      sha256 "f80099bab72c9dc46f597ef58bc98fff3dec09760e89ff5c4940795646d3e906"
     end
   end
 
